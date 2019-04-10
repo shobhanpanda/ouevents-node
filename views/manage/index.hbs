@@ -1,0 +1,19 @@
+
+<div class="topnav">
+  <a class="active" href="/">Home</a>
+  <a href="users/register">register new</a>
+  
+</div>
+
+
+
+
+
+{{#each users}}
+name:{{firstname}}
+</br>
+email:{{lastname}}
+</br>
+id: {{_id}}
+<a href="/users/manage/{{_id}}">edit</a>
+{{/each}}

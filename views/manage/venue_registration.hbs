@@ -1,0 +1,13 @@
+{{#if errors}}
+{{#each errors}}
+			<p>{{message}}</p>
+			{{/each}}
+{{/if}}
+<h1>helloo</h1>
+<form action="/users/manage/register" method='post'>
+  First name:<br>
+  <input type="text" name="firstname" class="firstname"><br>
+  email:<br>
+  <input type="text" name="lastname" class="lastname" ><br><br>
+  <input type="submit" value="Submit">
+</form>
